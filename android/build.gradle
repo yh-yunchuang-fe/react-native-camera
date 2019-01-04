@@ -54,7 +54,7 @@ dependencies {
 
   compile 'com.facebook.react:react-native:+'
   compile 'com.facebook.infer.annotation:infer-annotation:+'
-  compile "com.google.zxing:core:3.2.1"
+  compile "com.google.zxing:core:3.3.3"
   compile "com.drewnoakes:metadata-extractor:2.9.1"
   compile "com.google.android.gms:play-services-vision:$googlePlayServicesVersion"
   compile "com.android.support:exifinterface:$supportLibVersion"
