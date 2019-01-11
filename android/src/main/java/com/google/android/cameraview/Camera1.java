@@ -523,6 +523,7 @@ class Camera1 extends CameraViewImpl implements MediaRecorder.OnInfoListener,
             mCallback.onCameraOpened();
             return true;
         } catch (RuntimeException e) {
+            e.printStackTrace();
             return false;
         }
     }
